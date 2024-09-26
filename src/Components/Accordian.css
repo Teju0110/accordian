@@ -1,0 +1,35 @@
+/* styles.css (or your preferred stylesheet) */
+
+/* Styling for the accordion container */
+.Accordion {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+/* Styling for the accordion header */
+.Accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the accordion title */
+.Accordion-title {
+    font-weight: bold;
+}
+
+/* Styling for the accordion content */
+.Accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+/* Show content when accordion is active */
+.Accordion.active .Accordion-content {
+    display: block;
+}
